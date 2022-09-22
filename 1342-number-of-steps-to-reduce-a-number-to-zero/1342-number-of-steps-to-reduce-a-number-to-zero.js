@@ -7,8 +7,8 @@ var numberOfSteps = function(num) {
     
     while(num!==0){
         if(num%2 === 0){
-            num/=2;
-            count++;
+            num/=2
+            count++
         }
         
         if(num%2 !== 0){
